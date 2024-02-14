@@ -18,9 +18,15 @@ namespace Calculos
         }
         //operação multiplicação
         //retorna multiplicação de 2 valores
-        public static int Multiplicar (int x, int y)
+        public static int Multiplicar(int x, int y)
         {
             return x * y;
+        }
+        //operação dividir
+        //retorna dividir de 2 valores
+        public static int Dividir(int x, int y)
+        {
+            return x / y;
         }
     }
 }
